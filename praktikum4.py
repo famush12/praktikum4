@@ -15,10 +15,13 @@ while True:
         'uts': uts,
         'uas': uas,
         'nilai_akhir': nilai_akhir
+    })
+
     tambah = input("\nTambah data lagi? (y/t): ").lower()
     if tambah == 't':
         break
 
+# Menampilkan daftar data mahasiswa
 print("\nDaftar Nilai Mahasiswa:")
 print("="*50)
 print(f"{'Nama':<15} {'Tugas':<10} {'UTS':<10} {'UAS':<10} {'Nilai Akhir':<10}")
